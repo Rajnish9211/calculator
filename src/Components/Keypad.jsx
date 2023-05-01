@@ -1,5 +1,5 @@
 import React from 'react'
-
+// this will handle all button keys in calculator
 const Keypad = ({ handleClick, handleClear, handleEqual }) => {
     return (
         <div className="keypad">
@@ -47,5 +47,5 @@ const Keypad = ({ handleClick, handleClear, handleEqual }) => {
         </div>
     )
 }
-
+//exporting keypad
 export default Keypad
